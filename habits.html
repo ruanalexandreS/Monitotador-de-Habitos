@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,38 @@
     <link rel="stylesheet" href="./style.css">
     <title>Habits</title>
 </head>
+
 <body>
+
+    <!--Cabeçolho da pagina-->
+    <header>
+        <img src="./assets/habits.svg" alt="icone de check box do habits" />
+
+        <button>
+            <img src="./assets/simbolo+.svg" alt="icone de mais" />
+            <p>Registrar meu dia</p>
+        </button>
+    </header>
+
+    <!--Corpo da pagina-->
+    <form action="form habits">
+        <div class="habits">
+            <div class="habit" data-name="basquet">⛹️‍♂️</div>
+            <div class="habit" data-name="water">💧</div>
+            <div class="habit" data-name="academi">💪</div>
+            <div class="habit" data-name="sleep">💤</div>
+            <div class="habit" data-name="cat">🐈</div>
+            <div class="habit" data-name="food">🥗</div>
+        </div>
+
+        <!--Dias e checks-->
+        <div class="Days"></div>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="script.js"></script>
     
 </body>
+
 </html>
