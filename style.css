@@ -42,8 +42,9 @@ button {
 
 form {
     display: flex;
-    padding: 180px 48px 48px 48px;
-    width: fit-content;
+    justify-content: space-between;
+    padding: 300px 48px 48px 48px;
+    position: relative;
 }
 
 .habits {
